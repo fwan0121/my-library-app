@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "title": "Sample Book Title 1",
+      "author": "Sample Author 1",
+      "description": "This is a sample description of the book.",
+      "rating": 4.5,
+      "id": 2
+    },
+    {
+      "title": "Sample Book Title 2",
+      "author": "Sample Author 2",
+      "description": "This is a sample description of the book.",
+      "rating": 4.0,
+      "id": 3
+    },
+    {
+      "title": "Sample Book Title 3",
+      "author": "Sample Author 3",
+      "description": "This is a sample description of the book.",
+      "rating": 4.2,
+      "id": 4
+    }
+  ]
+}

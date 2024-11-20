@@ -3,3 +3,40 @@
 @tailwind utilities;
 
 /* Custom Global Styles */
+:root {
+    /* Colors */
+    --primary-color: #1a73e8;
+    --secondary-color: #ff6f61;
+    --background-color: #f9f9f9;
+    --text-color: #333333;
+    --text-white-color: #ffffff;
+    --header-bg-color: rgb(17 24 39);
+    --searchbar-bg-color: #2d3748;
+    --book-card-bg-color: #ffffff;
+    --rating-bg-color: #000000;
+  
+    /* Borders */
+    --border-radius: 8px;
+    --border-color: #cccccc;
+  
+    /* Spacing */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 32px;
+  
+    /* Font Sizes */
+    --font-size-small: 0.875rem;
+    --font-size-medium: 1rem;
+    --font-size-large: 1.5rem;
+  
+    /* Shadow */
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --hover-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+#root {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
