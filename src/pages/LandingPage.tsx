@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import SearchBar from '../components/SearchBar';
 import SectionTitle from '../components/SectionTitle';
 import BookCard from '../components/BookCard';
+import Footer from '../components/footer';
 import { fetchBooks, Book } from '../api/books';
 
 function LandingPage() {
@@ -34,6 +35,7 @@ function LandingPage() {
                 <SectionTitle title="Best Sellers" />
                 <BookCard books={bestSellers}/>
             </div>
+            <Footer />
         </>
     )
 }
